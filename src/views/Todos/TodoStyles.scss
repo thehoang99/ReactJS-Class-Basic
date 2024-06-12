@@ -1,0 +1,64 @@
+.todo-containter{
+
+    button {
+        cursor: pointer;
+    }
+
+    .todo-add {
+        input {
+            padding: 5px 10px;
+        }
+
+        .btn-add {
+            &:hover {
+                background-color: green;
+                color: cornsilk;
+            }
+
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .btn-showHide {
+        padding: 3px 8px;
+        margin-top: 30px;
+        
+        &:hover {
+            background-color: cyan;
+            color: brown;
+        }
+    }
+
+    .todo-content {
+        width: 400px;
+        margin: 30px auto 0px;
+
+        .todo-child {
+            &:first-child {
+                border-top: 2px solid darkturquoise;
+                padding-top: 15px;
+            }
+
+            border-bottom: 2px solid darkturquoise;
+            margin-top: 20px;
+            padding-bottom: 15px;
+
+            .btn-edit {
+                margin: auto 5px;
+
+                &:hover {
+                    background-color: blue;
+                    color: cornsilk;
+                }
+            }
+
+            .btn-delete {
+                &:hover {
+                    background-color: red;
+                    color: cornsilk;
+                }
+            }
+        }
+    }
+}

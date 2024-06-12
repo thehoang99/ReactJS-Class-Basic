@@ -1,0 +1,18 @@
+.user-container {
+    .title {
+        width: 400px;
+        border-bottom: 2px dotted grey;
+        margin: 5px auto;
+    }
+
+    .user-content {
+        .name, .email {
+            margin: 10px;
+        }
+
+        .avatar {
+            height: 200px;
+            width: 200px;
+        }
+    }
+}

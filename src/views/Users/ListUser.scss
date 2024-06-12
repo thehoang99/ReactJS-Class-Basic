@@ -1,0 +1,26 @@
+.list-user-container {
+    // .title {
+
+    // }
+
+    .list-user-content {
+        margin-top: 25px;
+
+        .child {
+            height: 40px;
+            width: 400px;
+            border: 1px solid grey;
+            margin: 0 auto;
+            padding: 5px;
+
+            .btn-detail {
+                margin-left: 10px;
+                width: 60px;
+                height: 30px;
+                background-color: aqua;
+                color: brown;
+                cursor: pointer;
+            }
+        }
+    }
+}
